@@ -1,0 +1,42 @@
+#header{
+    height: 50px;
+    width:100%;
+    background-color: blue;
+    position:fixed;
+    top:0%;
+    left:0%;
+}
+nav a{
+    color:white;
+    padding: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    top:12px;
+}
+nav{
+    float:right;
+    height: 50px;
+    display:inline !important;
+}
+#description ,#main_img{
+    float:left;
+    clear:none;
+    padding: 20px;
+}
+#main_screen{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    margin: 50px;
+    background-color: #f7f7f7;
+    width: 200px;
+    height:400px;
+}
+.profile_pic{
+    border-radius: 100%;
+}
